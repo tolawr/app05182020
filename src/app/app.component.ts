@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app05182020';
+
+  navs =[
+    {name: 'Home', route: '/', id: 100},
+    {name: 'About', route: '/about', id: 101},
+    {name: 'Contact', route: '/contact', id: 102},
+  ]
 }
